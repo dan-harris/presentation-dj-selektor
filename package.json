@@ -7,7 +7,10 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/navigo": "7.0.1",
+    "navigo": "7.1.2"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
   },

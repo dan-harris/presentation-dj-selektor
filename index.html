@@ -1,17 +1,88 @@
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>danharris - DJ Selektor</title>
     <meta charset="UTF-8" />
     <link href="./styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <main>
-      <div class="dh-stack">
-        <h1>🧞‍♂️ DJ Selektor</h1>
+    <!-- slide -->
+    <main data-id="1">
+      <div
+        class="dio-columns dio-align--center dio-width--fill dio-height--fill"
+      >
+        <div class="dio-column">
+          <div class="dio-stack">
+            <h1>🧞‍♂️ DJ Selektor</h1>
+            <p>selectors, currying & memoisation</p>
+            <p></p>
+            <div class="dio-columns dio-columns--gap-1 dio-align--center ">
+              <div class="dio-column"></div>
+              <div class="dio-column">
+                <a href="#/slide/2" data-navigo>-></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- slide -->
+    <main data-id="2" data-id-current>
+      <div
+        class="dio-columns dio-align--center dio-width--fill dio-height--fill"
+      >
+        <div class="dio-column">
+          <div class="dio-stack">
+            <h1>🧞‍♂️ DJ Selektor 2</h1>
+            <p>selectors, currying & memoisation</p>
+            <p></p>
+            <div class="dio-columns dio-columns--gap-1 dio-align--center ">
+              <div class="dio-column">
+                <a href="#/slide/1" data-navigo><-</a>
+              </div>
+              <div class="dio-column">
+                <a href="#/slide/3" data-navigo>-></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- slide -->
+    <main data-id="3">
+      <div
+        class="dio-columns dio-align--center dio-width--fill dio-height--fill"
+      >
+        <div class="dio-column">
+          <div class="dio-stack">
+            <h1>🧞‍♂️ DJ Selektor 3</h1>
+            <p>selectors, currying & memoisation</p>
+            <p></p>
+            <code>
+              function foo() { what }
+            </code>
+            <div class="dio-columns dio-columns--gap-1 dio-align--center ">
+              <div class="dio-column">
+                <a href="#/slide/2" data-navigo><-</a>
+              </div>
+              <div class="dio-column">
+                <a href="#/slide/3" data-navigo>-></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
     <script src="src/index.ts"></script>
+    <script src="src/currying.ts"></script>
+    <script src="src/selecting.ts"></script>
+    <script src="src/memoisation.ts"></script>
   </body>
 </html>
