@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "@types/navigo": "7.0.1",
-    "navigo": "7.1.2"
+    "navigo": "7.1.2",
+    "reselect": "4.0.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
