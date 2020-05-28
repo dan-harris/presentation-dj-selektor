@@ -14,4 +14,4 @@ _3... 🍱 Selecting from an Object_
 _4... 🚨 Reference equality_
 
 - Calculated data may cause new references
-- Change detection
+- Change detection in react
